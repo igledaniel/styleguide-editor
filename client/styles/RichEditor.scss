@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 625px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.export {
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+}
+
+.export button {
+  border: 0;
+  border-color: #d4645c;
+  background-color: #d4645c;
+  color: #fff;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 0;
+  border-width: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 16px;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.RichEditor-root {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 0 !important;
+  border-radius: 0 !important;
+  width: 100%;
+  flex-grow: 2;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+  font-size: 18px !important;
+  line-height: 1.6;
+}
+
+.RichEditor-controls {
+  margin: 0 15px !important;
+  padding: 15px 0 !important;
+}
+
+.RichEditor-editor {
+  padding: 6px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.RichEditor-styleButton {
+  color: #999;
+  cursor: pointer;
+  margin-right: 16px;
+  padding: 2px 0;
+  display: inline-block;
+}
+
+.RichEditor-activeButton {
+  color: #5890ff;
+}

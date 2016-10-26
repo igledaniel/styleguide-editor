@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>mapzen styleguide editor (an experiment)</title>
+  <link rel="stylesheet" href="https://mapzen.com/common/styleguide/styles/styleguide.css">
+</head>
+<body>
+  <div id="container"></div>
+  <%- body %>
+
+  <% if (env.production) { %>
+    <script async src="<%= env.assets.main.js %>"></script>
+  <% } else { %>
+    <script src="http://localhost:3000/client/main.js"></script>
+  <% } %>
+</body>
+</html>
