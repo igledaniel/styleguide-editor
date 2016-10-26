@@ -4,6 +4,8 @@
 
 a rich text editor for mapzen styleguide, exporting to markdown. this is an experiment.
 
+![screenshot 2016-10-26 18 01 10](https://cloud.githubusercontent.com/assets/2553268/19746876/566c2b88-9ba6-11e6-95b6-1ea1dae91953.png)
+
 ## howto
 
 1. clone this repo.
